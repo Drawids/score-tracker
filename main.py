@@ -6,5 +6,5 @@ players = [
 ]
 print("Список игроков с кол-во очков 10 и больше:")
 for player in players:
-    if player["score"] >= 10:
+    if player["score"] >= 100:
         print(f'Name: {player["name"]}, Score: {player["score"]}')
