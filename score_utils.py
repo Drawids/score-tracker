@@ -17,4 +17,3 @@ def get_best_score(scores):
 
 if __name__ == "__main__":
     print(f'Средний балл: {calculate_average([1, 2, 3, 4, 5])}\nЛучший результат: {get_best_score([1, 2, 3, 4, 5])}')
-    print("Файл запущен")
